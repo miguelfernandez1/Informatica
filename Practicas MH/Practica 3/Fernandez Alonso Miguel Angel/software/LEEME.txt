@@ -1,0 +1,26 @@
+Práctica 3: Técnicas de Búsqueda basadas en Trayectorias para el Problema del Aprendizaje de Pesos en Características
+
+Asignatura Metaheurísticas UGR 2023-2024
+Alumno: Miguel Ángel Fernández Alonso
+DNI: 76065289-B
+Correo: mfernandez1@correo.ugr.es
+
+La práctica contiene un archivo makefile que se encarga de compilar el programa que contiene los algoritmos para esta práctica (Búsqueda Multiarranque Básica (BMB), Enfriamiento Simulado (ES), Greedy Aleatorio con Búsqueda Local (GRASP), Búsqueda Local Reiterada (ILS), Hibridación de ILS y ES (ILS-ES).
+
+El programa aparecerá en el directorio bin con el nombre de p3.
+
+Existe un directorio data el cual contiene los archivos fuente con la extensión .csv que se han utilizado para ejecutar el programa llamado data.
+El programa solo lee archivos .csv
+
+Método para obtener los resultados del programa:
+
+> ./bin/p3 ./data/archivo.csv seed
+
+Ejemplo de ejecución:
+
+.\bin\p3 .\data\breast-cancer_5.csv 42
+
+Muestra los resultados de la ejecución del archivo pasado como parámetro por pantalla. El tercer argumento indica la semilla con la que se inicializará el algoritmo pseudoaleatorio y las distribuciones.
+
+
+La semilla usada para todas las ejecuciones ha sido 42

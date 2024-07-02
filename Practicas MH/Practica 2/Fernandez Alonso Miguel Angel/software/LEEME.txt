@@ -1,0 +1,25 @@
+Práctica 2:  Problema del Aprendizaje de Pesos en Características.  Técnicas de Búsqueda basadas en Poblaciones Algoritmos Genéticos y Meméticos
+Asignatura Metaheurísticas UGR 2023-2024
+Alumno: Miguel Ángel Fernández Alonso
+DNI: 76065289-B
+Correo: mfernandez1@correo.ugr.es
+
+La práctica contiene un archivo makefile que se encarga de compilar el programa que contiene los 10 algoritmos de las prácticas 1 y 2 (1-NN, Greedy Relief, Búsqueda Local, AGG_BLX, AGG_CA, AGE_BLX, AGE_CA, AM(10,1.0), AM(10,0.1), AM(10,0.1)_mej).
+
+El programa aparecerá en el directorio bin con el nombre de p2.
+
+Existe un directorio data el cual contiene los archivos fuente con la extensión .csv que se han utilizado para ejecutar el programa llamado data.
+El programa solo lee archivos .csv
+
+Método para obtener los resultados del programa:
+
+> ./bin/p2 ./data/archivo.csv seed
+
+Ejemplo de ejecución:
+
+.\bin\p2 .\data\breast-cancer_5.csv 42
+
+Muestra los resultados de la ejecución del archivo pasado como parámetro por pantalla. El tercer argumento indica la semilla con la que se inicializará el algoritmo pseudoaleatorio y las distribuciones.
+
+
+La semilla usada para todas las ejecuciones ha sido 42
