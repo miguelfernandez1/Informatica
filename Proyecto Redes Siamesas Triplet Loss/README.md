@@ -1,4 +1,1 @@
-# TrabajoVC
-Trabajo VC
-
-tutorial
+Proyecto Redes Siamesas Triplet Loss
